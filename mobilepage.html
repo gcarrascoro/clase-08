@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .contact {
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+            font-size: 50px;
+
+            background-color: darkblue;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            flex: 1;
+        }
+
+        .buttons {
+            background-color: darkblue;
+            flex: 2;
+        }
+
+        button {
+            background-color: darkblue;
+            color: lightblue;
+
+        }
+
+        .form {
+
+            background-color: white;
+            flex: 2;
+        }
+
+        #send {
+            background-color: rgba(82, 224, 182);
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box contact">
+            <h1> Contact us</h1>
+        </div>
+        <div class="box buttons">
+            <button>Home</button>
+            <button>About</button>
+            <button>Contact</button>
+
+        </div>
+
+        <div class="box form">
+            <form action="">
+
+                <label for="your-name">Your name</label>
+                <input id="your-name" type="text" placeholder="Jane Doe"> <br>
+                <label for="mail">Email</label>
+                <input id="mail" type="email" placeholder="jane@email.com"> <br>
+                <label for="message">Message</label>
+                <input type="text" id="message" placeholder="It would be great if you could add my #Tweet"><br>
+                <input id="send" type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
